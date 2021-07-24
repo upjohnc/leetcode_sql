@@ -1,6 +1,9 @@
 psql_repl:
 	psql -p 5433 -h localhost -U leet_role -d leet -W
 
+pgcli_repl:
+	pgcli -p 5433 -h localhost -U leet_role -d leet -W
+
 start_psql:
 	docker compose up
 
