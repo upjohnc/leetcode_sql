@@ -1,0 +1,17 @@
+[sqlfluff]
+exclude_rules = L031,L044,L009,L014,L034,L035,L042
+  # rules:
+  # 031: want to include alias of any table names which this rule didn't allow
+  # 044: took out because wouldn't allow `*`
+  # 009: trailing whitespace conflicts with the precommit that removes it
+  # 034: want to allow for control of order of columns rather than sqlfluff to reorder
+  # 035: rule: Do not specify "else null" in a case when statement.  Removed to make the case statement more explicit
+  # 042: allow for subqueries
+dialect = snowflake
+
+[sqlfluff:rules]
+tab_space_size = 4
+max_line_length = 120
+
+[sqlfluff:indentation]
+indented_joins = False
