@@ -11,8 +11,8 @@
 
 CREATE TABLE IF NOT EXISTS students
 (
-    id int,
-    student text
+    id int
+    , student text
 );
 
 INSERT INTO students (id, student)

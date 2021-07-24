@@ -12,6 +12,8 @@ dialect = snowflake
 [sqlfluff:rules]
 tab_space_size = 4
 max_line_length = 120
+comma_style = leading
 
 [sqlfluff:indentation]
 indented_joins = False
+
