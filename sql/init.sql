@@ -16,10 +16,6 @@ CREATE TABLE IF NOT EXISTS students
 );
 
 INSERT INTO students (id, student)
-VALUES (1, 'Abbot'),
-(2, 'Doris'),
-(3, 'Emerson'),
-(4, 'Green'),
-(5, 'Jeames');
+VALUES (1, 'Abbot'), (2, 'Doris'), (3, 'Emerson'), (4, 'Green'), (5, 'Jeames');
 
 
