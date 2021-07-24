@@ -8,6 +8,7 @@ Postgres set up for running this leetcode challenge [link to challenge](https://
   - `make start_psql`
 - in another terminal attach to that postgres instance
   - `make psql_repl`
+  - `thing` is the password to enter when prompted
   - you can now run all the queries you want.  you will be in psql
   - `\q` will exit the psql
 - shut down the running postgres
